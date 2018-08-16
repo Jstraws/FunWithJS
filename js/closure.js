@@ -20,8 +20,8 @@ function getCount(noun) {
 }
 
 function login() {
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
     if (username && password) {
         if (username === "Aretha" && password === "awesome") {
             isLoggedIn = true;
