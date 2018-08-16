@@ -11,4 +11,11 @@ window.onload = function () {
         document.getElementById("mouseX").innerText = event.clientX;
         document.getElementById("mouseY").innerText = event.clientY;
     }
+
+    /**
+     * Cancelling Events:
+     * Check if event.cancelable. If true, preventDefault()
+     * Use stopPropagation() to do such...
+     * Also use returnFalse()
+     */
 };
